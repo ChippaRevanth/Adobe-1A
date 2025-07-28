@@ -43,7 +43,7 @@ i)Prerequisites:
 
 ii)Clone the Repository:
   First, obtain the project files by cloning this Git repository to your local machine:
-    git clone <your-repository-url>
+    git clone <https://github.com/ChippaRevanth/Adobe-1A.git>
 
 iii)Build the Docker Image:
   Navigate to the root directory of the cloned repository (where the Dockerfile is located). Build the Docker image using the   following command:
