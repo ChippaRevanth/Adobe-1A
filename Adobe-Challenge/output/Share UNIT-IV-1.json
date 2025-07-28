@@ -1,0 +1,680 @@
+{
+  "title": "Share UNIT-IV-1",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Slide 1: UNIT-IV",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Slide 2: KNN Classification",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Slide 3",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Slide 4",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Slide 5: Suppose we have the following dataset that contains information about points in 2D space, and we want to classify a new point based on the nearest neighbors:",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Slide 6",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Slide 7",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Slide 8: Final Table",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Slide 9",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Slide 10",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Slide 11: Metrics to Evaluate your Classification Model",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "Slide 12: Structure of a Confusion Matrix",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "Slide 13: Example: Spam Email Detection",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "Slide 14: Metrics Derived from the Confusion Matrix:",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Slide 15",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Slide 16",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "Slide 17",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "Slide 18",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "Slide 19: Specificity (True Negative Rate):",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Slide 20: Learning Curve",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "text": "Slide 21: ROC Curve and AUC (Area Under the Curve)",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "Slide 22: Roc Curve",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "Slide 23",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "Slide 24",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "Slide 25",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Slide 26",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "Slide 27",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "Slide 28",
+      "page": 28
+    },
+    {
+      "level": "H1",
+      "text": "Slide 29",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "Slide 30: As we know, ROC is a curve of probability. So lets plot the distributions of those probabilities: Note: Red distribution curve is of the positive class (patients with disease) and green distribution curve is of negative class(patients with no di",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "Slide 31",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Slide 32",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "Slide 33",
+      "page": 33
+    },
+    {
+      "level": "H1",
+      "text": "Slide 34",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "Slide 35",
+      "page": 35
+    },
+    {
+      "level": "H1",
+      "text": "Slide 36",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "Slide 38",
+      "page": 38
+    },
+    {
+      "level": "H1",
+      "text": "Slide 39",
+      "page": 39
+    },
+    {
+      "level": "H1",
+      "text": "Slide 40",
+      "page": 40
+    },
+    {
+      "level": "H1",
+      "text": "Slide 41",
+      "page": 41
+    },
+    {
+      "level": "H1",
+      "text": "Slide 42",
+      "page": 42
+    },
+    {
+      "level": "H1",
+      "text": "Slide 43",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "Slide 44",
+      "page": 44
+    },
+    {
+      "level": "H1",
+      "text": "Slide 45",
+      "page": 45
+    },
+    {
+      "level": "H1",
+      "text": "Slide 46",
+      "page": 46
+    },
+    {
+      "level": "H1",
+      "text": "Slide 47",
+      "page": 47
+    },
+    {
+      "level": "H1",
+      "text": "Slide 48",
+      "page": 48
+    },
+    {
+      "level": "H1",
+      "text": "Slide 49",
+      "page": 49
+    },
+    {
+      "level": "H1",
+      "text": "Slide 50",
+      "page": 50
+    },
+    {
+      "level": "H1",
+      "text": "Slide 51: Bernoulli Naive Bayes",
+      "page": 51
+    },
+    {
+      "level": "H1",
+      "text": "Slide 52: 2. Multinomial Naive Bayes",
+      "page": 52
+    },
+    {
+      "level": "H1",
+      "text": "Slide 53: Gaussian Naive Bayes",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "Slide 54",
+      "page": 54
+    },
+    {
+      "level": "H1",
+      "text": "Slide 55: Feature Representation",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "Slide 56: Calculating Class Priors",
+      "page": 56
+    },
+    {
+      "level": "H1",
+      "text": "Slide 57: Word Counts per Class",
+      "page": 57
+    },
+    {
+      "level": "H1",
+      "text": "Slide 58",
+      "page": 58
+    },
+    {
+      "level": "H1",
+      "text": "Slide 59",
+      "page": 59
+    },
+    {
+      "level": "H1",
+      "text": "Slide 60",
+      "page": 60
+    },
+    {
+      "level": "H1",
+      "text": "Slide 61: Classifying a New Email",
+      "page": 61
+    },
+    {
+      "level": "H1",
+      "text": "Slide 62",
+      "page": 62
+    },
+    {
+      "level": "H1",
+      "text": "Slide 63",
+      "page": 63
+    },
+    {
+      "level": "H1",
+      "text": "Slide 64",
+      "page": 64
+    },
+    {
+      "level": "H1",
+      "text": "Slide 65",
+      "page": 65
+    },
+    {
+      "level": "H1",
+      "text": "Slide 66",
+      "page": 66
+    },
+    {
+      "level": "H1",
+      "text": "Slide 68",
+      "page": 68
+    },
+    {
+      "level": "H1",
+      "text": "Slide 69: Support Vector Machines:  Linear SVM, Kernel-based classification.",
+      "page": 69
+    },
+    {
+      "level": "H1",
+      "text": "Slide 70: Support Vector Machine",
+      "page": 70
+    },
+    {
+      "level": "H1",
+      "text": "Slide 71",
+      "page": 71
+    },
+    {
+      "level": "H1",
+      "text": "Slide 72",
+      "page": 72
+    },
+    {
+      "level": "H1",
+      "text": "Slide 73: ?",
+      "page": 73
+    },
+    {
+      "level": "H1",
+      "text": "Slide 74:  Kernel",
+      "page": 74
+    },
+    {
+      "level": "H1",
+      "text": "Slide 75",
+      "page": 75
+    },
+    {
+      "level": "H1",
+      "text": "Slide 76:  Regularization",
+      "page": 76
+    },
+    {
+      "level": "H1",
+      "text": "Slide 77: Left one has some misclassification due to lower regularization value. Higher value leads to results like right one.",
+      "page": 77
+    },
+    {
+      "level": "H1",
+      "text": "Slide 78: Gamma",
+      "page": 78
+    },
+    {
+      "level": "H1",
+      "text": "Slide 79: Margin",
+      "page": 79
+    },
+    {
+      "level": "H1",
+      "text": "Slide 80: Tennis example",
+      "page": 80
+    },
+    {
+      "level": "H1",
+      "text": "Slide 81: Linear Support Vector Machines : Linear Svm is used for linearly separable data, which means, if a data set can be classified into two classes by using a single straight line, then such data is termed as linearly separable data, and classifier i",
+      "page": 81
+    },
+    {
+      "level": "H1",
+      "text": "Slide 82: Linear SVM 2",
+      "page": 82
+    },
+    {
+      "level": "H1",
+      "text": "Slide 83: Definitions",
+      "page": 83
+    },
+    {
+      "level": "H1",
+      "text": "Slide 84: Maximizing the margin",
+      "page": 84
+    },
+    {
+      "level": "H1",
+      "text": "Slide 85: Constrained Optimization Problem",
+      "page": 85
+    },
+    {
+      "level": "H1",
+      "text": "Slide 86: Quadratic Programming",
+      "page": 86
+    },
+    {
+      "level": "H1",
+      "text": "Slide 87: Problems with linear SVM",
+      "page": 87
+    },
+    {
+      "level": "H1",
+      "text": "Slide 88: Kernel Trick: it is for 2nd degree polynomial mapping",
+      "page": 88
+    },
+    {
+      "level": "H1",
+      "text": "Slide 89: Types of Kernel",
+      "page": 89
+    },
+    {
+      "level": "H1",
+      "text": "Slide 90",
+      "page": 90
+    },
+    {
+      "level": "H1",
+      "text": "Slide 91: Other Kernels",
+      "page": 91
+    },
+    {
+      "level": "H1",
+      "text": "Slide 92: Overtraining/overfitting",
+      "page": 92
+    },
+    {
+      "level": "H1",
+      "text": "Slide 93: Overtraining/overfitting 2",
+      "page": 93
+    },
+    {
+      "level": "H1",
+      "text": "Slide 94: Decision Trees and Ensemble Learning: Binary Decision trees, Introduction to Ensemble Learning-Bagging, Random Forests, AdaBoost, Gradient Tree Boosting, Voting classifier.",
+      "page": 94
+    },
+    {
+      "level": "H1",
+      "text": "Slide 95",
+      "page": 95
+    },
+    {
+      "level": "H1",
+      "text": "Slide 96: Binary Decision Trees",
+      "page": 96
+    },
+    {
+      "level": "H1",
+      "text": "Slide 97",
+      "page": 97
+    },
+    {
+      "level": "H1",
+      "text": "Slide 98",
+      "page": 98
+    },
+    {
+      "level": "H1",
+      "text": "Slide 99",
+      "page": 99
+    },
+    {
+      "level": "H1",
+      "text": "Slide 100: Impurity Measures",
+      "page": 100
+    },
+    {
+      "level": "H1",
+      "text": "Slide 101: Algorithm",
+      "page": 101
+    },
+    {
+      "level": "H1",
+      "text": "Slide 102: Step 2: Calculate Entropy for Each Attribute",
+      "page": 102
+    },
+    {
+      "level": "H1",
+      "text": "Slide 103",
+      "page": 103
+    },
+    {
+      "level": "H1",
+      "text": "Slide 104",
+      "page": 104
+    },
+    {
+      "level": "H1",
+      "text": "Slide 105: Gini impurity index",
+      "page": 105
+    },
+    {
+      "level": "H1",
+      "text": "Slide 106: Cross-entropy impurity index",
+      "page": 106
+    },
+    {
+      "level": "H1",
+      "text": "Slide 107: Misclassification impurity index",
+      "page": 107
+    },
+    {
+      "level": "H1",
+      "text": "Slide 108",
+      "page": 108
+    },
+    {
+      "level": "H1",
+      "text": "Slide 109",
+      "page": 109
+    },
+    {
+      "level": "H1",
+      "text": "Slide 110",
+      "page": 110
+    },
+    {
+      "level": "H1",
+      "text": "Slide 111",
+      "page": 111
+    },
+    {
+      "level": "H1",
+      "text": "Slide 112",
+      "page": 112
+    },
+    {
+      "level": "H1",
+      "text": "Slide 113",
+      "page": 113
+    },
+    {
+      "level": "H1",
+      "text": "Slide 114: Information Gain :",
+      "page": 114
+    },
+    {
+      "level": "H1",
+      "text": "Slide 115",
+      "page": 115
+    },
+    {
+      "level": "H1",
+      "text": "Slide 116",
+      "page": 116
+    },
+    {
+      "level": "H1",
+      "text": "Slide 117",
+      "page": 117
+    },
+    {
+      "level": "H1",
+      "text": "Slide 118:    Decision Tree to Decision Rules",
+      "page": 118
+    },
+    {
+      "level": "H1",
+      "text": "Slide 119: Decision Tree classification with scikit-learn",
+      "page": 119
+    },
+    {
+      "level": "H1",
+      "text": "Slide 120: INTRODUCTION To Ensemble Learning",
+      "page": 120
+    },
+    {
+      "level": "H1",
+      "text": "Slide 121",
+      "page": 121
+    },
+    {
+      "level": "H1",
+      "text": "Slide 122",
+      "page": 122
+    },
+    {
+      "level": "H1",
+      "text": "Slide 123",
+      "page": 123
+    },
+    {
+      "level": "H1",
+      "text": "Slide 124",
+      "page": 124
+    },
+    {
+      "level": "H1",
+      "text": "Slide 125",
+      "page": 125
+    },
+    {
+      "level": "H1",
+      "text": "Slide 126",
+      "page": 126
+    },
+    {
+      "level": "H1",
+      "text": "Slide 127",
+      "page": 127
+    },
+    {
+      "level": "H1",
+      "text": "Slide 128",
+      "page": 128
+    },
+    {
+      "level": "H1",
+      "text": "Slide 129: Discriminant analysis",
+      "page": 129
+    },
+    {
+      "level": "H1",
+      "text": "Slide 130",
+      "page": 130
+    },
+    {
+      "level": "H1",
+      "text": "Slide 132",
+      "page": 132
+    },
+    {
+      "level": "H1",
+      "text": "Slide 133",
+      "page": 133
+    },
+    {
+      "level": "H1",
+      "text": "Slide 134",
+      "page": 134
+    },
+    {
+      "level": "H1",
+      "text": "Slide 135",
+      "page": 135
+    },
+    {
+      "level": "H1",
+      "text": "Slide 136",
+      "page": 136
+    },
+    {
+      "level": "H1",
+      "text": "Slide 137: BOOSTING(Sequential Ensembles) Example : Adaboost, Stochastic Gradient Boosting",
+      "page": 137
+    },
+    {
+      "level": "H1",
+      "text": "Slide 138",
+      "page": 138
+    }
+  ]
+}

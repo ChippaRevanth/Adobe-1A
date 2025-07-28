@@ -1,0 +1,170 @@
+{
+  "title": "Unit-IV Intermediate Code Generation",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Slide 1: UNIT - IV",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Slide 2",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Slide 3: Intermediate Code Generation",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Slide 4: Syntax Trees",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Slide 5: DAG (Directed Acyclic Graph )",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Slide 6: Directed Acyclic Graphs for Expressions",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Slide 7: Postfix notation",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Slide 8: Constructing  Syntax Trees for Expressions",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Slide 9: The following sequence of function calls creates the syntax tree for the expression :        a-4+c",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Slide 10: Draw the Syntax Tree",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Slide 11: SDD  for Syntax Trees",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "Slide 12: Three Address Code",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "Slide 13: Example of 3-address code",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "Slide 14: Types of Three-Address Statements.",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Slide 15: Implementations of 3-address statements",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Slide 16: Implementations of 3-address statements using quadruple",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "Slide 17: Implementations of 3-address statements",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "Slide 18: Other types of 3-address statements",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "Slide 19: Implementations of 3-address statements",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Slide 20: Syntax-Directed Translation into 3-address code.",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "text": "Slide 21: SDD  for Syntax Trees using function calls",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "Slide 22:  Syntax Tree for a = b*-c +b* -c using function calls",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "Slide 23: Syntax-Dir. Definition for 3-address code",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "Slide 24: Boolean Expressions:",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "Slide 25: Methods of implementing Boolean expressions",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Slide 26",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "Slide 27: Semantic Actions for producing Three Address Codes for Boolean Expressions:",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "Slide 28",
+      "page": 28
+    },
+    {
+      "level": "H1",
+      "text": "Slide 29",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "Slide 30: Functions and Attributes used in the translation of control Statements :-",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "Slide 31",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Slide 32",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "Slide 33",
+      "page": 33
+    }
+  ]
+}

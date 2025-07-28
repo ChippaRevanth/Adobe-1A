@@ -1,0 +1,290 @@
+{
+  "title": "Unit V- Code Generation",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Slide 1: UNIT V",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Slide 2: Introduction",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Slide 3: Position of code generator",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Slide 4: Issues in the Design of a Code Generator",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Slide 5: Input to the Code Generator",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Slide 6: Target Programs",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Slide 7: Factors influencing Optimization",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Slide 8: Memory Management",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Slide 9: Instruction Selection",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Slide 10: Instruction Selection contd.",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Slide 11: Instruction Selection contd.",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "Slide 12",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "Slide 13: Register Allocation",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "Slide 14",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Slide 15",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Slide 16: Choice of Evaluation Order",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "Slide 17: Approaches to Code Generation",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "Slide 18: Target Machine",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "Slide 19",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Slide 20: Instruction Costs",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "text": "Slide 21: Instruction Costs",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "Slide 22:  Basic Blocks and Flow Graphs",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "Slide 23: Basic Blocks and Flow Graphs",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "Slide 24: Flow Graph",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "Slide 25: Sample: Quicksort",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Slide 26: Three address code for fragment",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "Slide 27: Three address code for fragment  (with leader)",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "Slide 28: Quicksort Control Flow Graph",
+      "page": 28
+    },
+    {
+      "level": "H1",
+      "text": "Slide 29: Simple code generator",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "Slide 30: A code generation algorithm",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "Slide 31: A code generation algorithm contd.",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Slide 32: Code sequences for an assignment statement",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "Slide 33: Code sequence",
+      "page": 33
+    },
+    {
+      "level": "H1",
+      "text": "Slide 34: Code sequences for indexed assignments",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "Slide 35: Code sequences for pointer assignments",
+      "page": 35
+    },
+    {
+      "level": "H1",
+      "text": "Slide 36: Peephole Optimization",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "Slide 37: Peephole Optimization",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "Slide 38: Peephole Optimization",
+      "page": 38
+    },
+    {
+      "level": "H1",
+      "text": "Slide 39: (Classifications of Optimization techniques)",
+      "page": 39
+    },
+    {
+      "level": "H1",
+      "text": "Slide 40: (Themes behind Optimization Techniques)",
+      "page": 40
+    },
+    {
+      "level": "H1",
+      "text": "Slide 41: (Redundancy elimination)",
+      "page": 41
+    },
+    {
+      "level": "H1",
+      "text": "Slide 42: (Compile-Time Evaluation)",
+      "page": 42
+    },
+    {
+      "level": "H1",
+      "text": "Slide 43: Main Types of Code Optimization are",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "Slide 44",
+      "page": 44
+    },
+    {
+      "level": "H1",
+      "text": "Slide 45",
+      "page": 45
+    },
+    {
+      "level": "H1",
+      "text": "Slide 46",
+      "page": 46
+    },
+    {
+      "level": "H1",
+      "text": "Slide 47: Low-level Optimization",
+      "page": 47
+    },
+    {
+      "level": "H1",
+      "text": "Slide 48",
+      "page": 48
+    },
+    {
+      "level": "H1",
+      "text": "Slide 49",
+      "page": 49
+    },
+    {
+      "level": "H1",
+      "text": "Slide 50",
+      "page": 50
+    },
+    {
+      "level": "H1",
+      "text": "Slide 51: Overview of Machine Dependent Optimization",
+      "page": 51
+    },
+    {
+      "level": "H1",
+      "text": "Slide 52: Machine Independent Code optimizations",
+      "page": 52
+    },
+    {
+      "level": "H1",
+      "text": "Slide 53: Conditional statements",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "Slide 54: Register Allocation and Assignment",
+      "page": 54
+    },
+    {
+      "level": "H1",
+      "text": "Slide 55",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "Slide 56",
+      "page": 56
+    },
+    {
+      "level": "H1",
+      "text": "Slide 57: Main idea",
+      "page": 57
+    }
+  ]
+}

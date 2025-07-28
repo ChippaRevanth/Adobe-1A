@@ -1,0 +1,130 @@
+{
+  "title": "Unit-IV Part-2 Code Optimization",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Slide 1: Unit IV  Code Optimization",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Slide 2: Code Optimization",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Slide 3: Code Optimization",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Slide 4: Introduction",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Slide 5: An organization for optimizing compiler",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Slide 6",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Slide 7: Principal sources of optimization",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Slide 8",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Slide 9",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Slide 10: Global and local common  sub expression elimination",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Slide 11: Optimization Techniques (contd..)",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "Slide 12: Optimization Techniques (contd..)",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "Slide 13",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "Slide 14: Strength reduction",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Slide 15: Strength reduction applied to  4*j in block B3",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Slide 16: Flow Graph after  induction-variable elimination",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "Slide 17",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "Slide 18: Loop Fusion or Loop Distribution",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "Slide 19: Loop Fusion or Loop Jamming",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Slide 20",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "text": "Slide 21",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "Slide 22: Optimization of Basic Block",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "Slide 23: Structure Preserving Transformations",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "Slide 24: Structure Preserving Transformations contd.",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "Slide 25: Algebraic Transformations",
+      "page": 25
+    }
+  ]
+}
